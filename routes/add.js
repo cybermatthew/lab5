@@ -5,6 +5,7 @@ exports.addFriend = function(req, res) { 
 	var name = req.query.name;
 	var description = req.query.description;
 
+	// create new friend
 	var newFriend = {
 		"name": name,
 		"description": description,
